@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <button onClick={()=> getApi()}> Priekā!</button>
+      <button class="button button1" onClick={()=> getApi()}> Priekā!</button>
         {drink === '' ?
         <p>
           Cocktail of the night!
